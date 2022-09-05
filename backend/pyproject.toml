@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "backend"
+version = "0.1.0"
+description = ""
+authors = ["eiden"]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.9.7 || >3.9.7,<4.0"
+transformers = "^4.21.2"
+pandas = "^1.4.4"
+fastapi = "^0.81.0"
+torch = "^1.12.1"
+sentencepiece = "^0.1.97"
+python-multipart = "^0.0.5"
+sacremoses = "^0.0.53"
+uvicorn = "^0.18.3"
+pydantic = "^1.10.1"
+
+[tool.poetry.dev-dependencies]
+flake8 = "^5.0.4"
+mypy = "^0.971"
+black = "^22.6.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
