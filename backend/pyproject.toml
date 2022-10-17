@@ -15,6 +15,7 @@ python-multipart = "^0.0.5"
 sacremoses = "^0.0.53"
 uvicorn = "^0.18.3"
 pydantic = "^1.10.1"
+cryptography= "^38.0.2"
 
 [tool.poetry.dev-dependencies]
 flake8 = "^5.0.4"

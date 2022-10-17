@@ -2,8 +2,8 @@
 
 services:
   backend:
-    build: backend
-    image: translator-backend:latest     
+#    build: backend
+    image: eiden19/translator-backend:latest     
     ports:
       - "8000:8000"
     volumes:
@@ -12,8 +12,8 @@ services:
       - project_network
 
   frontend:
-    build: frontend
-    image: translator-frontend:latest
+#    build: frontend
+    image: eiden19/translator-frontend:latest
     ports:
       - "8501:8501"
     volumes:
