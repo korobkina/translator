@@ -2,7 +2,9 @@
 FROM python:3.9
 
 ENV PIP_DISABLE_PIP_VERSION_CHECK=on
+ARG CRYPTOGRAPHY_DONT_BUILD_RUST=1
 
+RUN pip install --upgrade pip
 RUN pip install poetry
 
 WORKDIR /app
